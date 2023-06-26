@@ -68,7 +68,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     display: flex;
     justify-content: space-between; 
     height: 5vh;
-    width: 40vh;
+    width: 45vh;
     margin: 3vh 5vh;
 }
 
@@ -83,7 +83,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 }
 
 .index__homePage-navbar-search-container{
-    margin-top: 0.3vh;
+    margin-top: 0.5vh;
 }
 
 .index__homePage-navbar-search-container input{
@@ -91,6 +91,6 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: rgba(0, 0, 0, 0.10);
     height: 4vh;
-    width: 30vh;
+    width: 35vh;
     padding-left: 1vh;
 }
