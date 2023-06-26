@@ -41,10 +41,13 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 	display: flex;
 	font-size: 10vh;
 	font-weight: 900;
+	position: absolute;
 }
 
 .index__homePage-LatestTrending-container{
 	margin-left: 5vh;
+	color: white;
+	position: inherit;
 }
 
 .index__homePage-LatestTrending-header{
