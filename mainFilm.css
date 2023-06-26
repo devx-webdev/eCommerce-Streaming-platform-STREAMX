@@ -31,11 +31,58 @@
     height: 3.5vh;
     margin-left: 4vh;
     width: 20vh;
-    padding-top: 0.7vh;
+    padding-top: 1vh;
 }
 
 .index__homePage-mainFilm-filmCharacteristics:hover{
     border-radius: 40px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: rgba(0, 0, 0, 0.10); 
+}
+
+.index__homePage-mainFilm-buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.index__homePage-mainFilm-watchNow-button-container{
+    height: 6vh;
+    background-color: white;
+    width: 22vh;
+    border-radius: 40px;
+    margin-right: 3vh;
+}
+
+.index__homePage-mainFilm-watchNow-button-container:hover{
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+    box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+}
+
+.index__homePage-mainFilm-watchNow-button{
+    padding-top: 1.8vh;
+}
+
+.index__homePage-mainFilm-watchNow-button a{
+    color: black;
+    margin-left: 1vh;
+}
+
+.index__homePage-mainFilm-moreInfo-button-container{
+    height: 6vh;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(0, 0, 0, 0.10); 
+    width: 22vh;
+    border-radius: 40px;
+}
+
+.index__homePage-mainFilm-moreInfo-button{
+    padding-top: 1.8vh;
+}
+
+.index__homePage-mainFilm-moreInfo-button a{
+    color: rgb(255, 255, 255);
+    margin-left: 1vh;
 }
