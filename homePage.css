@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: 'Poppins', sans-serif;
 }
 :before,:after{
     -moz-box-sizing: border-box;
@@ -42,4 +44,52 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     background-size: cover;
     background-position: top;
     transition: background-color 0.5s ease;
+}
+
+.index__homePage-navbar-container{
+    height: 12.5vh;
+}
+
+.index__homePage-navbar-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.index__homepage-navbar-left-container{
+    display: flex;
+    justify-content: space-between; 
+    height: 5vh;
+    width: 75vh;
+    margin: 4vh 5vh;
+}
+
+.index__homePage-navbar-right-container{
+    display: flex;
+    justify-content: space-between; 
+    height: 5vh;
+    width: 45vh;
+    margin: 3vh 5vh;
+}
+
+.index__homePage-navbar-links-container{
+    margin-top: 0.7vh;
+}
+
+.index__homePage-navbar-links-container a{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 2.3vh;
+    margin-left: 2vh;
+}
+
+.index__homePage-navbar-search-container{
+    margin-top: 0.5vh;
+}
+
+.index__homePage-navbar-search-container input{
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(0, 0, 0, 0.10);
+    height: 4vh;
+    width: 35vh;
+    padding-left: 1vh;
 }
