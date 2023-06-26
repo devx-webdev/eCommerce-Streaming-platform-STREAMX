@@ -1,0 +1,41 @@
+.index__homePage-mainFilm-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.index__homePage-mainFilm-content{
+    width: 65vh;
+}
+
+.index__homePage-mainFilm-filmCharacteristics-container{
+    display: flex;  
+    justify-content: center;
+    margin-top: 5vh;    
+    width: 70vh;
+}
+
+.index__homePage-mainFilm-filmCharacteristics-container a{
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.index__homePage-mainFilm-filmDescription-container p{
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.index__homePage-mainFilm-filmDescription-container{
+    margin-top: 3vh;
+}
+
+.index__homePage-mainFilm-filmCharacteristics{
+    height: 3.5vh;
+    margin-left: 4vh;
+    width: 20vh;
+    padding-top: 0.7vh;
+}
+
+.index__homePage-mainFilm-filmCharacteristics:hover{
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(0, 0, 0, 0.10); 
+}

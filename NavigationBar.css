@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 :before,:after{
     -moz-box-sizing: border-box;
