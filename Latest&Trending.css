@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	border: 0;
+	transition: .2s linear;
 }
 :before,:after{
 	-moz-box-sizing: border-box;
@@ -45,7 +46,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 .index__homePage-LatestTrending-allfilms-container h1{
 	font-weight: 800;
-
+	user-select: none;
 }
 
 .index__homePage-LatestTrending-container{

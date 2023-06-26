@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 .index__homePage-mainFilm-content{
@@ -11,8 +12,9 @@
 .index__homePage-mainFilm-filmCharacteristics-container{
     display: flex;  
     justify-content: center;
+    text-align: center;
     margin-top: 5vh;    
-    width: 70vh;
+    width: 100%;
 }
 
 .index__homePage-mainFilm-filmCharacteristics-container a{
@@ -28,22 +30,31 @@
 }
 
 .index__homePage-mainFilm-filmCharacteristics{
-    height: 3.5vh;
+    height: 5.5vh;
     margin-left: 4vh;
     width: 20vh;
-    padding-top: 1vh;
+    padding-top: 2vh;
+    border: none;
+    box-sizing: border-box;
+    border: 0px solid ; 
+    border-radius: 40px;
+    transition: .2 linear;
+    cursor: pointer;
+    user-select: none;
 }
 
 .index__homePage-mainFilm-filmCharacteristics:hover{
-    border-radius: 40px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-    background: rgba(0, 0, 0, 0.10); 
+    background: rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    user-select: none;
 }
 
 .index__homePage-mainFilm-buttons-container{
     display: flex;
     justify-content: center;
     margin-top: 3vh;
+    width: 100%;
 }
 
 .index__homePage-mainFilm-watchNow-button-container{
