@@ -23,6 +23,7 @@
 
 .index__homePage-mainFilm-filmDescription-container p{
     color: rgba(255, 255, 255, 0.80);
+    line-height: 2.2vh;
 }
 
 .index__homePage-mainFilm-filmDescription-container{
