@@ -91,7 +91,8 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     background: rgba(0, 0, 0, 0.10);
     height: 4vh;
     width: 35vh;
-    padding-left: 1vh;
+    padding: 0vh 1vh;
+    color: white;
 }
 
 .index__homePage-navbar-userlogo-container{
