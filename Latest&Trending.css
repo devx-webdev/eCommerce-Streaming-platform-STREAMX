@@ -1,0 +1,145 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	transition: .2s linear;
+}
+:before,:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+.index__homePage-LatestTrending-allfilms-container{
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	font-size: 12vh;
+}
+
+.index__homePage-LatestTrending-allfilms-container h1{
+	font-weight: 800;
+	user-select: none;
+}
+
+.index__homePage-LatestTrending-container{
+	color: white;
+	position: inherit;
+}
+
+.index__homePage-LatestTrending-header{
+	font-size: 7vh;
+	margin: 5vh;
+}
+
+.index__homePage-LatestTrending-1stFilm-container{
+	position: relative;
+}
+
+.index__homePage-LatestTrending-1stFilm-container h1{
+	position: absolute;
+}
+
+.index__homePage-LatestTrending-1stFilm-container img{
+	position: relative;
+	z-index: 2;
+	margin-top: 4vh;
+	margin-left: 5vh;
+	height: 25vh;
+}
+
+.index__homePage-LatestTrending-2ndFilm-container{
+	position: relative;
+	margin-left: 10vh
+}
+
+.index__homePage-LatestTrending-2ndFilm-container h1{
+	position: absolute;
+}
+
+.index__homePage-LatestTrending-2ndFilm-container img{
+	position: relative;
+	z-index: 2;
+	margin-top: 4vh;
+	margin-left: 8vh;
+	height: 25vh;
+}
+
+.index__homePage-LatestTrending-3dFilm-container{
+	position: relative;
+	margin-left: 10vh
+}
+
+.index__homePage-LatestTrending-3dFilm-container h1{
+	position: absolute;
+}
+
+.index__homePage-LatestTrending-3dFilm-container img{
+	position: relative;
+	z-index: 2;
+	margin-top: 4vh;
+	margin-left: 8vh;
+	height: 25vh;
+}
+
+.index__homePage-LatestTrending-4thFilm-container{
+	position: relative;
+	margin-left: 10vh
+}
+
+.index__homePage-LatestTrending-4thFilm-container h1{
+	position: absolute;
+}
+
+.index__homePage-LatestTrending-4thFilm-container img{
+	position: relative;
+	z-index: 2;
+	margin-top: 4vh;
+	margin-left: 10vh;
+	height: 25vh;
+}
+
+.index__homePage-LatestTrending-5thFilm-container{
+	position: relative;
+	margin-left: 10vh;
+}
+
+.index__homePage-LatestTrending-5thFilm-container h1{
+	position: absolute;
+}
+
+.index__homePage-LatestTrending-5thFilm-container img{
+	position: relative;
+	z-index: 2;
+	margin-top: 4.5vh;
+	margin-left: 10vh;
+	height: 22.5vh;
+	border-radius: 10%;
+}
