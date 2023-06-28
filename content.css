@@ -39,8 +39,8 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 .index__content-topsearch-text-container{
     color: #FFF;
-    text-align: center;
     font-size: 28px;
     font-weight: 500;
-    padding-top: 10vh;
+    padding-top: 14vh;
+	padding-left: 16vh;
 }
