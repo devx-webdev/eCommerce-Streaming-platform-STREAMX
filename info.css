@@ -76,14 +76,24 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
-	padding-top: 2.5vh;
-	margin-top: 2vh;
+	padding-top: 1vh;
+	margin-top: 2.5vh;
 	width: 20vh;
-	height: 5vh;
+	height: 3.5vh;
 	border-radius: 40px;
 	border: 0.1vh solid rgba(255, 255, 255, 0.20);
 	background: rgba(255, 255, 255, 0.20);
 	backdrop-filter: blur(20px);
+}
+
+.index__language-column-conteiner i{
+	font-size: 2.5vh;
+}
+
+.index__language-column-conteiner p{
+	font-size: 2vh;
+	font-weight: 300;
+	margin-top: 0.25vh;
 }
 
 .index__socialMedia-column-conteiner{
@@ -99,4 +109,24 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 .index__downloadOurApp-column-conteiner img{
 	margin-top: 1vh;
 	border-radius: 0.5vh;
+}
+
+.index__socialMedia-column-icons-conteiner{
+	width: 15vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.index__socialMedia-column-icons-conteiner i{
+	text-align: center;
+	padding-top: 1vh;
+	margin-top: 2.5vh;
+	width: 5vh;
+	height: 3.5vh;
+	border-radius: 30px;
+	font-size: 2.5vh;
+	border: 0.1vh solid rgba(255, 255, 255, 0.20);
+	background: rgba(255, 255, 255, 0.20);
+	backdrop-filter: blur(20px);
 }
