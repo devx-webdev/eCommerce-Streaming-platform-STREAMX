@@ -43,6 +43,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     font-weight: 500;
     padding-top: 14vh;
 	padding-left: 16vh;
+	padding-bottom: 2vh;
 }
 
 
@@ -52,6 +53,14 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 	height: 10vh;
 	margin-left: 14vh;
 	
+}
+
+.index__content-action-text-container{
+	color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 21.5vh;
+	padding-left: 16vh;
 }
 
 
