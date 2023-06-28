@@ -39,8 +39,18 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 .index__content-topsearch-text-container{
     color: #FFF;
-    text-align: center;
     font-size: 28px;
     font-weight: 500;
-    padding-top: 10vh;
+    padding-top: 14vh;
+	padding-left: 16vh;
 }
+
+
+.index__content-topsearch-images-container{
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	margin-left: 14vh;
+}
+
+
