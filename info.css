@@ -45,9 +45,20 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 	margin-right: 5vh;
 }
 
+.index__info-conteiner h4{
+	font-size: 2.5vh;
+}
+
+.index__info-conteiner h5{
+	color: #FFFFFF80;
+	font-size: 2vh;
+	margin-top: 2vh;
+}
+
 .index__company-column-conteiner{
 	display: flex;
 	flex-direction: column;
+
 }
 
 .index__needHelp-column-conteiner{
@@ -60,6 +71,21 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 	flex-direction: column;
 }
 
+.index__language-choise-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	padding-top: 2.5vh;
+	margin-top: 2vh;
+	width: 20vh;
+	height: 5vh;
+	border-radius: 40px;
+	border: 0.1vh solid rgba(255, 255, 255, 0.20);
+	background: rgba(255, 255, 255, 0.20);
+	backdrop-filter: blur(20px);
+}
+
 .index__socialMedia-column-conteiner{
 	display: flex;
 	flex-direction: column;
@@ -68,4 +94,9 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 .index__downloadOurApp-column-conteiner{
 	display: flex;
 	flex-direction: column;
+}
+
+.index__downloadOurApp-column-conteiner img{
+	margin-top: 1vh;
+	border-radius: 0.5vh;
 }
