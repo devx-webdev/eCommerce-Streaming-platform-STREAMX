@@ -61,7 +61,49 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     font-weight: 500;
     padding-top: 21.5vh;
 	padding-left: 16vh;
+	padding-bottom: 2vh;
 }
 
+.index__content-action-images-container{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 14vh;
+}
+	
+.index__content-action-trirdfilm-container{
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+	padding-top: 1vh;
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.20);
+}
 
+.index__content-romanceDrama-text-container{
+	color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 5.5vh;
+	padding-left: 16vh;
+	padding-bottom: 2vh;
+}
 
+.index__content-romanceDrama-images-container{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 14vh;
+}
+
+.index__content-comedy-text-container{
+	color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 5.5vh;
+	padding-left: 16vh;
+	padding-bottom: 2vh;
+}
+
+.index__content-comedy-images-container{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 14vh;
+}
