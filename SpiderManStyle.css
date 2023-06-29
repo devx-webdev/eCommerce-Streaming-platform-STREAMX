@@ -350,8 +350,13 @@ body{
     margin-top: 3vh;
 }
 
-.index__SpiderManFilm-Trailer-content{
+.index__SpiderManFilm-1Trailer-content{
     width: 350px;
+}
+
+.index__SpiderManFilm-2Trailer-content{
+    width: 350px;
+    margin-left: 5vh;
 }
 
 .index__SpiderManFilm-trailer-text{
@@ -361,4 +366,36 @@ body{
 
 .index__SpiderManFilm-trailer-text a{
     font-size: 20px;
+}
+
+.index__SpiderManFilm-Trailer-container{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.index__SpiderManFilm-MoreFilms-action-images-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.index__SpiderManFilm-MoreFilms-action-film-container{
+    margin-left: 15vh;
+}
+
+.index__SpiderManFilm-MoreFilms-action-thirdfilm-container{
+    margin-top: 3vh;
+    margin-left: 15vh;
+}  
+
+.index__SpiderManFilm-MoreFilms-romanceDrama-images-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.index__SpiderManFilm-MoreFilms-romanceDrama-film-container{
+    margin-left: 13.5vh;
+}
+
+.index__SpiderManFilm-MoreFilms-container{
+    margin-top: 5vh;
 }
