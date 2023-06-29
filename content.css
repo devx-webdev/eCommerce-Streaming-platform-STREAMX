@@ -37,10 +37,67 @@ img{vertical-align: top;}
 
 h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
+.index__content-container{
+	margin-right: 8vh;
+}
+
 .index__content-topsearch-text-container{
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 500;
-    padding-top: 14vh;
-	padding-left: 16vh;
+   margin-top: 8vh;
+	font-size: 6vh;
+	margin-left: 10vh;
+}
+
+
+.index__content-topsearch-images-container{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10vh;
+	margin-top: 3vh;
+}
+
+.index__content-action-text-container{
+   margin-top: 8vh;
+	font-size: 6vh;
+	margin-left: 10vh;
+}
+
+.index__content-action-images-container{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10vh;
+	margin-top: 3vh;
+}
+	
+.index__content-action-trirdfilm-container{
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+	padding-top: 1vh;
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.index__content-romanceDrama-text-container{
+   margin-top: 8vh;
+	font-size: 6vh;
+	margin-left: 10vh;
+}
+
+.index__content-romanceDrama-images-container{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10vh;
+	margin-top: 3vh;
+}
+
+.index__content-comedy-text-container{
+   margin-top: 8vh;
+	font-size: 6vh;
+	margin-left: 10vh;
+}
+
+.index__content-comedy-images-container{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10vh;
+	margin-top: 3vh;
 }
