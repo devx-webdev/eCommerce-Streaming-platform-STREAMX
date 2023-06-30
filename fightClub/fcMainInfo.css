@@ -1,0 +1,99 @@
+.index__fightclubPage-mainFilm-container{
+	display: flex;
+	align-items: center;
+	margin-left: 5vh;
+}
+
+.index__fightclubPage-mainFilm-content{
+	width: 65vh;
+}
+
+.index__fightclubPage-mainFilm-filmCharacteristics-container{
+	display: flex;  
+	justify-content: center;
+	text-align: center;
+	margin-top: 5vh;    
+	width: 100%;
+}
+
+.index__fightclubPage-mainFilm-filmCharacteristics-container a{
+	color: rgba(255, 255, 255, 0.80);
+}
+
+.index__fightclubPage-mainFilm-filmDescription-container p{
+	color: rgba(255, 255, 255, 0.80);
+	line-height: 2.2vh;
+}
+
+.index__fightclubPage-mainFilm-filmDescription-container{
+	margin-top: 3vh;
+}
+
+.index__fightclubPage-mainFilm-filmCharacteristics{
+	height: 5.5vh;
+	margin-left: 4vh;
+	width: 20vh;
+	padding-top: 2vh;
+	border: none;
+	box-sizing: border-box;
+	border: 0px solid ; 
+	border-radius: 40px;
+	transition: .2 linear;
+	cursor: pointer;
+	user-select: none;
+}
+
+.index__fightclubPage-mainFilm-filmCharacteristics:hover{
+	border: 1px solid rgba(255, 255, 255, 0.20);
+	background: rgba(0, 0, 0, 0.10);
+	cursor: pointer;
+	user-select: none;
+}
+
+.index__fightclubPage-mainFilm-buttons-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 3vh;
+	width: 100%;
+}
+
+.index__fightclubPage-mainFilm-watchNow-button-container{
+	height: 6vh;
+	background-color: white;
+	width: 22vh;
+	border-radius: 40px;
+	margin-right: 3vh;
+}
+
+.index__fightclubPage-mainFilm-watchNow-button-container:hover{
+	-webkit-box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+	-moz-box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+	box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+}
+
+.index__fightclubPage-mainFilm-watchNow-button{
+	padding-top: 1.8vh;
+}
+
+.index__fightclubPage-mainFilm-watchNow-button a{
+	color: black;
+	margin-left: 1vh;
+}
+
+.index__fightclubPage-mainFilm-moreInfo-button-container{
+	height: 6vh;
+	border-radius: 40px;
+	border: 1px solid rgba(255, 255, 255, 0.20);
+	background: rgba(0, 0, 0, 0.10); 
+	width: 22vh;
+	border-radius: 40px;
+}
+
+.index__fightclubPage-mainFilm-moreInfo-button{
+	padding-top: 1.8vh;
+}
+
+.index__fightclubPage-mainFilm-moreInfo-button a{
+	color: rgb(255, 255, 255);
+	margin-left: 1vh;
+}

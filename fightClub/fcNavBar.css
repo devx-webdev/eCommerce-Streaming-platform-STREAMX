@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+:before,:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-style: 100%;
+    line-height: 1;
+    font-style: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+.index__fightclubPage-container {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('/images/fc.bf.png');
+    background-size: cover;
+    background-position: top;
+    transition: background-color 0.5s ease;
+}
+
+body{
+    background-color: black;
+}
+
+.index__fightclubPage-navbar-container{
+    height: 12.5vh;
+}
+
+.index__fightclubPage-navbar-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.index__fightclubpage-navbar-left-container{
+    display: flex;
+    justify-content: space-between; 
+    height: 5vh;
+    width: 75vh;
+    margin: 4vh 5vh;
+}
+
+.index__fightclubPage-navbar-right-container{
+    display: flex;
+    justify-content: space-between; 
+    height: 5vh;
+    width: 45vh;
+    margin: 3vh 5vh;
+}
+
+.index__fightclubPage-navbar-links-container{
+    margin-top: 0.7vh;
+}
+
+.index__fightclubPage-navbar-links-container a{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 2.3vh;
+    margin-left: 2vh;
+}
+
+.index__fightclubPage-navbar-search-container{
+    margin-top: 0.5vh;
+}
+
+.index__fightclubPage-navbar-search-container input{
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(0, 0, 0, 0.10);
+    height: 4vh;
+    width: 35vh;
+    padding: 0vh 1vh;
+    color: white;
+}
+
+.index__fightclubPage-navbar-userlogo-container{
+    margin-top: 0.5vh;
+}
