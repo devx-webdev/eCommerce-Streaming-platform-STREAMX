@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    transition: .2s linear;
+}
+:before,:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-style: 100%;
+    line-height: 1;
+    font-style: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+body{
+    background-color: black;
+}
+
+.index__SpiderManFilm-navbar-container{
+    height: 12.5vh;
+}
+
+.index__SpiderManFilm-navbar-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.index__SpiderManFilm-navbar-left-container{
+    display: flex;
+    justify-content: space-between; 
+    height: 5vh;
+    width: 75vh;
+    margin: 4vh 5vh;
+}
+
+.index__SpiderManFilm-navbar-right-container{
+    display: flex;
+    justify-content: space-between; 
+    height: 5vh;
+    width: 45vh;
+    margin: 3vh 5vh;
+}
+
+.index__SpiderManFilm-navbar-links-container{
+    margin-top: 0.7vh;
+}
+
+.index__SpiderManFilm-navbar-links-container a{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 2.3vh;
+    margin-left: 2vh;
+}
+
+.index__SpiderManFilm-navbar-search-container{
+    margin-top: 0.5vh;
+}
+
+.index__SpiderManFilm-navbar-search-container input{
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(0, 0, 0, 0.10);
+    height: 4vh;
+    width: 35vh;
+    padding: 0vh 1vh;
+    color: white;
+}
+
+.index__SpiderManFilm-navbar-userlogo-container{
+    margin-top: 0.5vh;
+}
+
+.index__SpiderManFilm-mainFilm-container{
+    text-align: left;
+}
+
+.index__SpiderManFilm-mainFilm-content{
+    width: 65vh;
+    margin-top: 47vh;
+}
+
+.index_SpiderManFilm-mainFilm-filmCharacteristics-container{
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.index__SpiderManFilm-mainFilm-filmCharacteristics-container a{
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.index__SpiderManFilm-mainFilm-filmDescription-container p{
+    color: rgba(255, 255, 255, 0.80);
+    line-height: 2.2vh;
+}
+
+.index__SpiderManFilm-mainFilm-filmDescription-container{
+    margin-top: 3vh;
+}
+
+.index__SpiderManFilm-mainFilm-filmCharacteristics{
+    height: 5.5vh;
+    margin-left: 5vh;
+    width: 20vh;
+    padding-top: 1.6vh;
+    border: none;
+    box-sizing: border-box;
+    border: 0px solid ; 
+    border-radius: 40px;
+    transition: .2 linear;
+    cursor: pointer;
+    user-select: none;
+}
+
+.index__SpiderManFilm-mainFilm-filmCharacteristics:hover{
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(0, 0, 0, 0.10);
+    cursor: pointer;    
+    user-select: none;
+}
+
+.index__SpiderManFilm-mainFilm-filmCharacteristics a{
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.index__SpiderManFilm-mainFilm-buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.index__SpiderManFilm-mainFilm-watchNow-button-container{
+    height: 6vh;
+    background-color: white;
+    width: 25vh;
+    border-radius: 40px;
+    margin-right: 3vh;
+}
+
+.index__SpiderManFilm-mainFilm-watchNow-button-container:hover{
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+    box-shadow: 0px 0px 14px 4px rgba(34, 60, 80, 0.32);
+}
+
+.index__SpiderManFilm-mainFilm-watchNow-button{
+    padding-top: 1.8vh;
+    text-align: center;
+}
+
+.index__SpiderManFilm-mainFilm-watchNow-button a{
+    color: black;
+    margin-left: 1vh;
+}
+
+.index__SpiderManFilm-mainFilm-moreInfo-button-container{
+    height: 6vh;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(80, 80, 80, 0.3); 
+    width: 25vh;
+    border-radius: 40px;
+}
+
+.index__SpiderManFilm-mainFilm-moreInfo-button{
+    padding-top: 1.8vh;
+    text-align: center;
+}
+
+.index__SpiderManFilm-mainFilm-moreInfo-button a{
+    color: rgb(255, 255, 255);
+    margin-left: 1vh;
+}
+
+.index__SpiderManFilm-container {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('images/background.png');
+    background-size: cover;
+    background-position: top;
+    transition: background-color 0.5s ease;
+}
+
+.index__SpiderManFilm-mainFilm-image-container{
+    margin-left: 5vh;
+}
+
+.index__SpiderManFilm-mainFilm-repost-button-container{
+    height: 5.5vh;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(80, 80, 80, 0.3); 
+    width: 5.5vh;
+    border-radius: 40px;
+    margin-left: 2vh;
+}
+
+.index__SpiderManFilm-mainFilm-heart-button-container{
+    height: 5.5vh;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(80, 80, 80, 0.3); 
+    width: 5.5vh;
+    border-radius: 40px;
+    margin-left: 2vh;
+}
+
+.index__SpiderManFilm-mainFilm-download-button-container{
+    height: 5.5vh;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(80, 80, 80, 0.3); 
+    width: 5.5vh;
+    border-radius: 40px;
+    margin-left: 2vh;
+}
+
+.index__SpiderManFilm-mainFilm-buttons-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.index__SpiderManFilm-mainFilm-right-buttons-container{
+    display: flex;
+    margin-right: 5vh;
+}
+
+.index__SpiderManFilm-mainFilm-left-buttons-container{
+    display: flex;
+    margin-left: 5vh;
+}
+
+.index__SpiderManFilm-Info-container{
+
+    margin-left: 5vh;
+    margin-top: 12vh;
+}
+
+.index__SpiderManFilm-Info-Description-container p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 20px;
+}
+
+.index__SpiderManFilm-Info-container{
+    height: 90vh;
+    width: 192vh;
+}
+
+.index__SpiderManFilm-Info-Cast-container{
+    margin-top: 7vh;
+}
+
+#index__SpiderManFilm-Actor-Image{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+}
+
+.index__SpiderManFilm-Info-actor{
+    display: flex;
+    justify-content: center;
+}
+
+.index__SpiderManFilm-Info-Actors-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.index__SpiderManFilm-bottom-text{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.index__SpiderManFilm-Actor-text-container{
+    margin-left: 1vh;
+    margin-top: 0.5vh;
+}
+
+.index__SpiderManFilm-Info-Trailers-container{
+    margin-top: 10vh;
+}
+
+.index__SpiderManFilm-Info-Trailer-container{
+    background-color: white;
+    width: 15vh;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+}
+
+.index__SpiderManFilm-Info-Trailer{
+    padding-top: 0.8vh;
+}
+
+.index__SpiderManFilm-Info-Trailer-container a{
+    color: black;
+}
+
+.index__SpiderManFilm-Info-Trailers-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.index__SpiderManFilm-Info-User_Reviews{
+    margin-top: 0.8vh;
+    margin-left: 1vh;
+}
+
+
+.index__SpiderManFilm-Info-User_Reviews a{
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.index__SpiderManFilm-Trailer-container img{
+    border-radius: 15px;
+}
+
+.index__SpiderManFilm-Trailer-container{
+    margin-top: 3vh;
+}
+
+.index__SpiderManFilm-1Trailer-content{
+    width: 350px;
+}
+
+.index__SpiderManFilm-2Trailer-content{
+    width: 350px;
+    margin-left: 5vh;
+}
+
+.index__SpiderManFilm-trailer-text{
+    margin-left: 1vh;
+    padding-top: 1vh;
+}
+
+.index__SpiderManFilm-trailer-text a{
+    font-size: 20px;
+}
+
+.index__SpiderManFilm-Trailer-container{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.index__SpiderManFilm-MoreFilms-action-images-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.index__SpiderManFilm-MoreFilms-action-film-container{
+    margin-left: 15vh;
+}
+
+.index__SpiderManFilm-MoreFilms-action-thirdfilm-container{
+    margin-top: 3vh;
+    margin-left: 15vh;
+}  
+
+.index__SpiderManFilm-MoreFilms-romanceDrama-images-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.index__SpiderManFilm-MoreFilms-romanceDrama-film-container{
+    margin-left: 13.5vh;
+}
+
+.index__SpiderManFilm-MoreFilms-container{
+    margin-top: 5vh;
+}
